@@ -4,7 +4,7 @@ import "./App.css";
 import {
   Footer,
   Blog,
-  Fearures,
+  Features,
   Header,
   Possibility,
   WhatReact,
@@ -19,14 +19,13 @@ const App = () => {
         <Navbar />
         <Header />
       </div>
-      <div>
-        <Brand />
-        <WhatReact />
-        <Possibility />
-        <CTA />
-        <Blog />
-        <Footer />
-      </div>
+      <Brand />
+      <WhatReact />
+      <Features />
+      <Possibility />
+      <CTA />
+      <Blog />
+      <Footer />
     </div>
   );
 };

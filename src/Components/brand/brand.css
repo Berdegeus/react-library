@@ -1,0 +1,18 @@
+.react__brand {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.react__brand img {
+  width: 10%;
+  height: 10%;
+}
+
+@media screen and (max-width: 800px) {
+  .react__brand img {
+    width: 30%;
+    height: 30%;
+  }
+}
